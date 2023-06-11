@@ -7,4 +7,4 @@ set(CMAKE_C_STANDARD 99)
 
 add_compile_definitions(PORTNO=${PORT})
 
-add_executable(${PROJECT_NAME} main.c)
+add_executable(${PROJECT_NAME} source/main.c)
